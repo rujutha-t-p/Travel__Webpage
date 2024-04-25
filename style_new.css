@@ -1,0 +1,79 @@
+/* book now page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+    background-color: #000; /* Change background color to black */
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.booking-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.booking-section h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Change heading color to white */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center; /* Center the form options */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; 
+}
+
+.form-group input,
+.form-group select {
+    width: 50%; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000; 
+}
+
+.form-group button {
+    background-color: rgb(66, 153, 177);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
